@@ -3,83 +3,163 @@ K3
 13
 cModel Technology
 Z0 dC:\Users\aluno\Desktop\lab03novo\simulation\qsim
-vMUX8bit
-Z1 IhedZWXIMA@Y]]_[1bcCzc0
-Z2 V1ZSJ`>4Nif=gaC7LMg;Tk3
-Z3 dC:\Users\aluno\Desktop\lab03novo\simulation\qsim
-Z4 w1744295468
-Z5 8MUX.vo
-Z6 FMUX.vo
+vDecoder
+Z1 ID`Ag>SX1h0bAUffKbf9N<0
+Z2 Vb626[]=:Umonj6hKF4O6[2
+Z3 dC:\Users\ralex\Documents\GitHub\CircuitosDigitais\Lab03Incompleto\simulation\qsim
+Z4 w1744469550
+Z5 8Decoder.vo
+Z6 FDecoder.vo
 L0 31
 Z7 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|MUX.vo|
-Z9 o-work work -O0
-Z10 n@m@u@x8bit
+Z8 o-work work -O0
+Z9 n@decoder
 !i10b 1
-Z11 !s100 LjCY1e7MZi8MUcKBIM7F;2
+Z10 !s100 25iTTU8HWPaO5O2P_KQgA3
 !s85 0
-Z12 !s108 1744295470.266000
-Z13 !s107 MUX.vo|
+Z11 !s108 1744469551.004000
+Z12 !s107 Decoder.vo|
+Z13 !s90 -work|work|Decoder.vo|
 !s101 -O0
-vMUX8bit_vlg_check_tst
+vDecoder_vlg_check_tst
 !i10b 1
-Z14 !s100 FNd7OS@9d]z@J0K<8hVL?1
-Z15 IYQFaWQB@n5BZ6]CFe^m1k0
-Z16 VG1EIlG1OZ19lH9BY?`eIf1
+!s100 0CP_3dRcH=ABA4RmXjakN1
+I_U7h4>5f7[TQ7iR:hXeXL2
+V=M;9a<]>ZZhISb@]=h[<?3
 R3
-Z17 w1744295466
-Z18 8MUX8bits.vwf.vt
-Z19 FMUX8bits.vwf.vt
-L0 61
+Z14 w1744469549
+Z15 8Decoder.vt
+Z16 FDecoder.vt
+L0 57
 R7
 r1
 !s85 0
 31
-Z20 !s108 1744295470.375000
-Z21 !s107 MUX8bits.vwf.vt|
-Z22 !s90 -work|work|MUX8bits.vwf.vt|
+Z17 !s108 1744469551.044000
+Z18 !s107 Decoder.vt|
+Z19 !s90 -work|work|Decoder.vt|
 !s101 -O0
-R9
-Z23 n@m@u@x8bit_vlg_check_tst
-vMUX8bit_vlg_sample_tst
+R8
+n@decoder_vlg_check_tst
+vDecoder_vlg_sample_tst
 !i10b 1
-Z24 !s100 S1PXhLC_0bgP3@HD<QGmQ2
-Z25 I?d]]NGXMj6H7T5ejiMc]D1
-Z26 V[nd3PUb9VMl[FMDVPOE?f3
+!s100 obNa4=[XiOW@bD?JaN9`M2
+Ia]=AZ[O6VEWUfNTV>nK@62
+VI<342A_6H4BDZ=E1YcZU>0
 R3
-R17
-R18
-R19
+R14
+R15
+R16
 L0 29
 R7
 r1
 !s85 0
 31
-R20
-R21
-R22
-!s101 -O0
-R9
-Z27 n@m@u@x8bit_vlg_sample_tst
-vMUX8bit_vlg_vec_tst
-!i10b 1
-!s100 Hc^eZJ>kN;X3CRC^HAcO23
-I^haIRCjj:CR_TR=V6UKF41
-Z28 Vl1@=5j@UcBHPn8;5L:X7S2
-R3
 R17
 R18
 R19
-Z29 L0 281
+!s101 -O0
+R8
+n@decoder_vlg_sample_tst
+vDecoder_vlg_vec_tst
+!i10b 1
+!s100 UZnDecIHL`>^oN>H8j:JL1
+I`[UT=PA5iA9m;T6RJ?;8?0
+VfzJ>3ULLP=iN;81fQTjC_3
+R3
+R14
+R15
+R16
+L0 277
 R7
 r1
 !s85 0
 31
-R20
-R21
-R22
+R17
+R18
+R19
 !s101 -O0
-R9
-Z30 n@m@u@x8bit_vlg_vec_tst
+R8
+n@decoder_vlg_vec_tst
+vMUX8bit
+Z20 !s100 LjCY1e7MZi8MUcKBIM7F;2
+Z21 IhedZWXIMA@Y]]_[1bcCzc0
+Z22 V1ZSJ`>4Nif=gaC7LMg;Tk3
+R3
+Z23 w1744467957
+Z24 8MUX.vo
+Z25 FMUX.vo
+L0 31
+R7
+r1
+31
+Z26 !s90 -work|work|MUX.vo|
+R8
+Z27 n@m@u@x8bit
+Z28 !s108 1744468325.834000
+Z29 !s107 MUX.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX8bit_vlg_check_tst
+Z30 I7T;e6WRSJYeCW>JI05AkK3
+Z31 VG1EIlG1OZ19lH9BY?`eIf1
+R3
+Z32 w1744468324
+Z33 8MUX.vt
+Z34 FMUX.vt
+L0 61
+R7
+r1
+31
+Z35 !s108 1744468325.897000
+Z36 !s107 MUX.vt|
+Z37 !s90 -work|work|MUX.vt|
+R8
+Z38 n@m@u@x8bit_vlg_check_tst
+Z39 !s100 gFH09@CD6QRb^DXU?YJW43
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX8bit_vlg_sample_tst
+Z40 I9AIcTBWo4FigbAVc];jRn1
+Z41 V[nd3PUb9VMl[FMDVPOE?f3
+R3
+R32
+R33
+R34
+L0 29
+R7
+r1
+31
+R35
+R36
+R37
+R8
+Z42 n@m@u@x8bit_vlg_sample_tst
+Z43 !s100 ;@z>oeRgz2b3^ngF[X[611
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX8bit_vlg_vec_tst
+Z44 I6iSF=TV88Im_;G@XD>@=X1
+Z45 Vl1@=5j@UcBHPn8;5L:X7S2
+R3
+R32
+R33
+R34
+Z46 L0 281
+R7
+r1
+31
+R35
+R36
+R37
+R8
+Z47 n@m@u@x8bit_vlg_vec_tst
+Z48 !s100 <jW98elLb@[UnXB9IMa610
+!i10b 1
+!s85 0
+!s101 -O0

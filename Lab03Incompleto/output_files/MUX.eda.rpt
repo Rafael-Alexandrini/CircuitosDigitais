@@ -1,6 +1,6 @@
 EDA Netlist Writer report for MUX
-Thu Apr 10 11:31:08 2025
-Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Sat Apr 12 11:32:05 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -9,8 +9,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   1. Legal Notice
   2. EDA Netlist Writer Summary
   3. Simulation Settings
-  4. Simulation Generated Files
-  5. EDA Netlist Writer Messages
+  4. EDA Netlist Writer Messages
 
 
 
@@ -36,11 +35,11 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Apr 10 11:31:08 2025 ;
+; EDA Netlist Writer Status ; Successful - Sat Apr 12 11:32:05 2025 ;
 ; Revision Name             ; MUX                                   ;
 ; Top-level Entity Name     ; MUX8bit                               ;
 ; Family                    ; Cyclone IV GX                         ;
-; Simulation Files Creation ; Successful                            ;
+; Simulation Files Creation ; Failed                                ;
 +---------------------------+---------------------------------------+
 
 
@@ -66,54 +65,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------+
-; Simulation Generated Files                                                     ;
-+--------------------------------------------------------------------------------+
-; Generated Files                                                                ;
-+--------------------------------------------------------------------------------+
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_6_1200mv_85c_slow.vo     ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_6_1200mv_0c_slow.vo      ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_min_1200mv_0c_fast.vo    ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX.vo                       ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_6_1200mv_85c_v_slow.sdo  ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_6_1200mv_0c_v_slow.sdo   ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_min_1200mv_0c_v_fast.sdo ;
-; C:/Users/aluno/Desktop/lab03novo/simulation/qsim//MUX_v.sdo                    ;
-+--------------------------------------------------------------------------------+
-
-
 +-----------------------------+
 ; EDA Netlist Writer Messages ;
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
-    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
-    Info: Your use of Altera Corporation's design tools, logic functions 
-    Info: and other software and tools, and its AMPP partner logic 
-    Info: functions, and any output files from any of the foregoing 
-    Info: (including device programming or simulation files), and any 
-    Info: associated documentation or information are expressly subject 
-    Info: to the terms and conditions of the Altera Program License 
-    Info: Subscription Agreement, Altera MegaCore Function License 
-    Info: Agreement, or other applicable license agreement, including, 
-    Info: without limitation, that your use is for the sole purpose of 
-    Info: programming logic devices manufactured by Altera and sold by 
-    Info: Altera or its authorized distributors.  Please refer to the 
-    Info: applicable agreement for further details.
-    Info: Processing started: Thu Apr 10 11:31:07 2025
-Info: Command: quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/aluno/Desktop/lab03novo/simulation/qsim/ MUX -c MUX
-Info (204019): Generated file MUX_6_1200mv_85c_slow.vo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_6_1200mv_0c_slow.vo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_min_1200mv_0c_fast.vo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX.vo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_6_1200mv_85c_v_slow.sdo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_6_1200mv_0c_v_slow.sdo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_min_1200mv_0c_v_fast.sdo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file MUX_v.sdo in folder "C:/Users/aluno/Desktop/lab03novo/simulation/qsim//" for EDA simulation tool
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sat Apr 12 11:32:04 2025
+Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog MUX -c MUX
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4604 megabytes
-    Info: Processing ended: Thu Apr 10 11:31:08 2025
+    Info: Peak virtual memory: 4565 megabytes
+    Info: Processing ended: Sat Apr 12 11:32:05 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
