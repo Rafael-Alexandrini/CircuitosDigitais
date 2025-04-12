@@ -1,0 +1,4 @@
+		Área FPGA		Atraso crítico
+MUX8bits	  33				10.040
+
+Codificador	  19				8.136

@@ -1,0 +1,449 @@
+$comment
+	File created using the following command:
+		vcd file MUX.msim.vcd -direction
+$end
+$date
+	Thu Apr 10 11:31:11 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module MUX8bit_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # Sel $end
+$var wire 1 $ S [7] $end
+$var wire 1 % S [6] $end
+$var wire 1 & S [5] $end
+$var wire 1 ' S [4] $end
+$var wire 1 ( S [3] $end
+$var wire 1 ) S [2] $end
+$var wire 1 * S [1] $end
+$var wire 1 + S [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 S[7]~output_o $end
+$var wire 1 4 S[6]~output_o $end
+$var wire 1 5 S[5]~output_o $end
+$var wire 1 6 S[4]~output_o $end
+$var wire 1 7 S[3]~output_o $end
+$var wire 1 8 S[2]~output_o $end
+$var wire 1 9 S[1]~output_o $end
+$var wire 1 : S[0]~output_o $end
+$var wire 1 ; B[7]~input_o $end
+$var wire 1 < A[7]~input_o $end
+$var wire 1 = Sel~input_o $end
+$var wire 1 > inst8|inst1~0_combout $end
+$var wire 1 ? A[6]~input_o $end
+$var wire 1 @ B[6]~input_o $end
+$var wire 1 A inst7|inst1~0_combout $end
+$var wire 1 B A[5]~input_o $end
+$var wire 1 C B[5]~input_o $end
+$var wire 1 D inst6|inst1~0_combout $end
+$var wire 1 E A[4]~input_o $end
+$var wire 1 F B[4]~input_o $end
+$var wire 1 G inst5|inst1~0_combout $end
+$var wire 1 H A[3]~input_o $end
+$var wire 1 I B[3]~input_o $end
+$var wire 1 J inst3|inst1~0_combout $end
+$var wire 1 K A[2]~input_o $end
+$var wire 1 L B[2]~input_o $end
+$var wire 1 M inst2|inst1~0_combout $end
+$var wire 1 N B[1]~input_o $end
+$var wire 1 O A[1]~input_o $end
+$var wire 1 P inst1|inst1~0_combout $end
+$var wire 1 Q A[0]~input_o $end
+$var wire 1 R B[0]~input_o $end
+$var wire 1 S inst|inst1~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x,
+0-
+1.
+x/
+10
+11
+12
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+0;
+0<
+0=
+x>
+0?
+0@
+xA
+0B
+0C
+xD
+0E
+0F
+xG
+0H
+0I
+xJ
+0K
+0L
+xM
+0N
+0O
+xP
+0Q
+0R
+xS
+$end
+#1872
+0M
+#3961
+0J
+#4196
+0>
+#4429
+0S
+#4432
+0P
+#4734
+0A
+#4735
+0D
+#4774
+0G
+#4855
+08
+0)
+#7340
+0:
+0+
+#7501
+09
+0*
+#7753
+04
+0%
+#8867
+07
+0(
+#8997
+03
+0$
+#9068
+05
+0&
+#9150
+06
+0'
+#10000
+b10000000 !
+b11000000 !
+b11100000 !
+b11110000 !
+b11111000 !
+b11111100 !
+b11111110 !
+b11111111 !
+0,
+#10507
+1?
+1H
+1Q
+#10515
+1O
+#10517
+1B
+1K
+#10545
+1E
+#10555
+1<
+#12460
+1M
+#13927
+1J
+#14434
+1A
+#14459
+1>
+1P
+#14590
+1S
+#14602
+1D
+#14977
+1G
+#15559
+18
+1)
+#17573
+14
+1%
+#17621
+1:
+1+
+#17647
+19
+1*
+#18898
+17
+1(
+#18968
+15
+1&
+#19244
+13
+1$
+#19445
+16
+1'
+#120000
+b1111111 !
+b111111 !
+b11111 !
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+1,
+#120681
+0?
+0H
+0Q
+#120688
+0O
+#120691
+0B
+0K
+#120718
+0E
+#120728
+0<
+#122563
+0M
+#124377
+0J
+#124863
+0A
+#124924
+0>
+#124949
+0P
+#125110
+0S
+#125115
+0D
+#125492
+0G
+#125546
+08
+0)
+#127882
+04
+0%
+#128018
+09
+0*
+#128021
+0:
+0+
+#129283
+07
+0(
+#129448
+05
+0&
+#129725
+03
+0$
+#129868
+06
+0'
+#130000
+b1000 !
+b1010 !
+0,
+#130507
+1H
+#130515
+1O
+#133927
+1J
+#134459
+1P
+#137647
+19
+1*
+#138898
+17
+1(
+#230000
+b10 !
+b0 !
+1,
+#230681
+0H
+#230688
+0O
+#234377
+0J
+#234949
+0P
+#238018
+09
+0*
+#239283
+07
+0(
+#240000
+b10000000 "
+b10100000 "
+b10110000 "
+b10111000 "
+b10111010 "
+b10111011 "
+1#
+0,
+#240497
+1C
+1N
+#240507
+1I
+#240517
+1F
+#240525
+1R
+#240527
+1;
+#240537
+1=
+#244623
+1S
+#244624
+1J
+#244625
+1>
+#244667
+1D
+#244895
+1P
+#244910
+1G
+#247654
+1:
+1+
+#248083
+19
+1*
+#249033
+15
+1&
+#249378
+16
+1'
+#249410
+13
+1$
+#249595
+17
+1(
+#350000
+b10111111 "
+b111111 "
+b11111 "
+b1111 "
+b1101 "
+b1100 "
+1,
+#350517
+1L
+#350671
+0C
+0N
+#350691
+0F
+#350698
+0R
+#350701
+0;
+#352314
+1M
+#354555
+0>
+#354937
+0S
+#355040
+0G
+#355204
+0D
+#355413
+18
+1)
+#355414
+0P
+#357848
+0:
+0+
+#358483
+09
+0*
+#359356
+03
+0$
+#359416
+06
+0'
+#359537
+05
+0&
+#460000
+b100 "
+b0 "
+0,
+#460681
+0I
+#460691
+0L
+#462410
+0M
+#464642
+0J
+#465393
+08
+0)
+#469548
+07
+0(
+#470000
+0#
+1,
+#470711
+0=
+#1000000
