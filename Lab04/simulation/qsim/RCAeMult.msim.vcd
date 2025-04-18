@@ -1,0 +1,551 @@
+$comment
+	File created using the following command:
+		vcd file RCAeMult.msim.vcd -direction
+$end
+$date
+	Fri Apr 18 16:32:27 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Mult_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var wire 1 # S [7] $end
+$var wire 1 $ S [6] $end
+$var wire 1 % S [5] $end
+$var wire 1 & S [4] $end
+$var wire 1 ' S [3] $end
+$var wire 1 ( S [2] $end
+$var wire 1 ) S [1] $end
+$var wire 1 * S [0] $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 inst13|inst1~combout $end
+$var wire 1 3 inst20|inst4~0_combout $end
+$var wire 1 4 S[7]~output_o $end
+$var wire 1 5 S[6]~output_o $end
+$var wire 1 6 S[5]~output_o $end
+$var wire 1 7 S[4]~output_o $end
+$var wire 1 8 S[3]~output_o $end
+$var wire 1 9 S[2]~output_o $end
+$var wire 1 : S[1]~output_o $end
+$var wire 1 ; S[0]~output_o $end
+$var wire 1 < A[3]~input_o $end
+$var wire 1 = B[2]~input_o $end
+$var wire 1 > inst18~combout $end
+$var wire 1 ? B[1]~input_o $end
+$var wire 1 @ A[2]~input_o $end
+$var wire 1 A inst8~combout $end
+$var wire 1 B A[0]~input_o $end
+$var wire 1 C inst12|inst4~3_combout $end
+$var wire 1 D A[1]~input_o $end
+$var wire 1 E inst12|inst4~9_combout $end
+$var wire 1 F inst13|inst4~0_combout $end
+$var wire 1 G inst9~combout $end
+$var wire 1 H inst22|inst4~0_combout $end
+$var wire 1 I B[3]~input_o $end
+$var wire 1 J inst25~combout $end
+$var wire 1 K inst22|inst~combout $end
+$var wire 1 L inst24~combout $end
+$var wire 1 M inst17~combout $end
+$var wire 1 N inst21|inst1~combout $end
+$var wire 1 O inst16~combout $end
+$var wire 1 P B[0]~input_o $end
+$var wire 1 Q inst12|inst1~4_combout $end
+$var wire 1 R inst12|inst1~5_combout $end
+$var wire 1 S inst15~combout $end
+$var wire 1 T inst20|inst1~combout $end
+$var wire 1 U inst28|inst4~0_combout $end
+$var wire 1 V inst29|inst4~0_combout $end
+$var wire 1 W inst30|inst4~0_combout $end
+$var wire 1 X inst30|inst1~0_combout $end
+$var wire 1 Y inst21|inst4~0_combout $end
+$var wire 1 Z inst29|inst1~combout $end
+$var wire 1 [ inst23~combout $end
+$var wire 1 \ inst28|inst1~combout $end
+$var wire 1 ] inst27|inst~combout $end
+$var wire 1 ^ inst19|inst~combout $end
+$var wire 1 _ inst11|inst~combout $end
+$var wire 1 ` inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 !
+b100 "
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x+
+0,
+1-
+x.
+1/
+10
+11
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+0<
+1=
+x>
+0?
+0@
+xA
+0B
+xC
+1D
+xE
+xF
+xG
+xH
+0I
+xJ
+xK
+xL
+xM
+xN
+xO
+0P
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+$end
+#1706
+0L
+#1707
+0J
+#1711
+0[
+#2066
+0K
+#2201
+0G
+#2215
+0>
+#2274
+0U
+#2727
+0V
+#2959
+0H
+#3056
+0W
+#3577
+0A
+#3580
+0X
+#3628
+0`
+#3736
+0E
+#4000
+0M
+#4064
+02
+#4155
+0Q
+#4166
+0F
+#4192
+0C
+#4193
+0S
+#4213
+0_
+#4265
+1O
+#4643
+03
+#4654
+1T
+#4765
+0R
+#5228
+0Y
+#5237
+0^
+#5396
+1]
+#5870
+0N
+#5872
+0Z
+#6328
+0\
+#6338
+04
+0#
+#6826
+0;
+0*
+#7701
+0:
+0)
+#8210
+05
+0$
+#8420
+09
+0(
+#8655
+18
+1'
+#9574
+07
+0&
+#10437
+06
+0%
+#90000
+b110 !
+b100 !
+b101 !
+b1100 "
+b1000 "
+0+
+#90517
+1@
+1B
+#90525
+1I
+#90681
+0=
+#90718
+0D
+#92282
+1L
+#92860
+1\
+#93844
+1C
+#94267
+1M
+#94342
+1[
+#94393
+1S
+#94399
+1J
+#94586
+0]
+#94618
+1^
+#94692
+1N
+#94724
+0M
+#94793
+0O
+#94864
+1U
+#94994
+1Z
+#95047
+0^
+#95179
+0N
+#95249
+0L
+#95275
+0S
+#95304
+0Z
+#95312
+1V
+#95423
+0T
+#95621
+1X
+#95843
+0U
+#96183
+0\
+#96189
+1]
+#96222
+17
+1&
+#96296
+0V
+#96307
+1Z
+#96622
+0X
+#99429
+07
+0&
+#100953
+16
+1%
+#180000
+b1101 !
+b1010 "
+b1011 "
+b1111 !
+b1111 "
+1+
+#180507
+1=
+1?
+1P
+#180515
+1<
+#180545
+1D
+#182926
+1X
+#183859
+1Q
+#183860
+1`
+#184006
+12
+#184241
+1>
+#184245
+1M
+#184297
+1G
+#184340
+1E
+#184428
+1A
+#184429
+1R
+#184555
+1K
+#184557
+1^
+#184596
+1T
+#184641
+02
+#184649
+1F
+#184670
+1N
+#184768
+1S
+#184772
+1O
+#184793
+1L
+#184864
+0^
+#185009
+12
+#185032
+0N
+#185039
+1Y
+#185206
+0T
+#185215
+13
+#185380
+0K
+#185491
+1\
+#185503
+1H
+#185599
+1T
+#185666
+0Y
+#185681
+1N
+#186048
+1W
+#186090
+0X
+#186106
+0\
+#186110
+1U
+#186331
+0]
+#186344
+1\
+#186374
+1Y
+#186413
+0N
+#186550
+0Z
+#186558
+1V
+#186867
+1X
+#186871
+0\
+#186973
+1Z
+#187160
+1;
+1*
+#187630
+15
+1$
+#189443
+14
+1#
+#189477
+08
+0'
+#280000
+b1011 !
+b1010 !
+b111 "
+b10 !
+b101 "
+b100 "
+b0 !
+b0 "
+0+
+#280681
+0=
+0?
+0P
+#280688
+0<
+#280691
+0@
+0B
+#280698
+0I
+#280718
+0D
+#282404
+0L
+#282405
+0J
+#282409
+0X
+0[
+#282411
+1]
+#282756
+02
+#282889
+0G
+#282903
+0>
+#282998
+0U
+#283035
+0Z
+#283390
+0T
+#283451
+0V
+#283462
+1Z
+#283647
+0H
+#283660
+1N
+#283780
+0W
+#283787
+1X
+#284086
+1\
+#284146
+0]
+#284268
+0X
+0A
+#284307
+1_
+#284309
+0`
+#284417
+0E
+#284691
+0M
+#284793
+0O
+#284836
+0Q
+#284857
+0F
+#284883
+0C
+#284884
+0S
+#284894
+0_
+#285131
+1^
+#285146
+0N
+#285413
+03
+#285446
+0R
+#285604
+0\
+#285918
+0^
+#285919
+0Y
+#285934
+1N
+#286360
+1\
+#286563
+0Z
+#286640
+0N
+#287062
+04
+0#
+#287098
+0\
+#287507
+0;
+0*
+#288898
+05
+0$
+#291128
+06
+0%
+#1000000

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ralex\Documents\GitHub\CircuitosDigitais\Lab04\simulation\qsim
+vMult
+Z1 !s100 z<1S9PL9?eRRF7m6ogTa^2
+Z2 I<8N4=C]kjZTAAZ]Cob?1Z3
+Z3 V9gEI0zZJNNO^MZWLR;LY12
+Z4 dC:\Users\ralex\Documents\GitHub\CircuitosDigitais\Lab04\simulation\qsim
+Z5 w1745004746
+Z6 8RCAeMult.vo
+Z7 FRCAeMult.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|RCAeMult.vo|
+Z10 o-work work -O0
+Z11 n@mult
+!i10b 1
+!s85 0
+Z12 !s108 1745004747.463000
+Z13 !s107 RCAeMult.vo|
+!s101 -O0
+vMult_vlg_check_tst
+!i10b 1
+Z14 !s100 5CVTPH:TGY;CX[2`YDCEd2
+Z15 IMDOkSEZmJSOB@b`9kKYA`3
+Z16 V`[U0jVPzH48Y]nM^j92[63
+R4
+R5
+Z17 8RCAeMult.vt
+Z18 FRCAeMult.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1745004747.529000
+Z20 !s107 RCAeMult.vt|
+Z21 !s90 -work|work|RCAeMult.vt|
+!s101 -O0
+R10
+Z22 n@mult_vlg_check_tst
+vMult_vlg_sample_tst
+!i10b 1
+Z23 !s100 _A8FG7__o204eh78YgA3f2
+Z24 I5ORzIbW51EkPlFV4LBdIf3
+Z25 V^1J1YgR?z;c3=zZnI6:AD1
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@mult_vlg_sample_tst
+vMult_vlg_vec_tst
+!i10b 1
+Z27 !s100 4T[VVl<C5g8nFmH3FEf=?1
+Z28 IN[T_0[XFOz4L12N]jnVbP1
+Z29 VNJJHTNO;LKQAomfJa^zz>2
+R4
+R5
+R17
+R18
+Z30 L0 279
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z31 n@mult_vlg_vec_tst
