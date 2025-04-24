@@ -1,0 +1,3 @@
+Atraso crítico: 13.356
+Área: Elementos lógicos: 50
+Área: LUT: ???
