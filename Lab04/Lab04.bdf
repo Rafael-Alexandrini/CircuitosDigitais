@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 328 136 496 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "A[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 328 176 496 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "B[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 328 96 496 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Sel[1..0]" (rect 5 0 47 12)(font "Arial" ))
+	(text "Sel[1..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -263,6 +263,23 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 112 80))
 	)
 )
+(symbol
+	(rect 352 400 384 432)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst5" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(text "A[3..0]" (rect 448 240 481 252)(font "Arial" ))
 	(pt 496 256)
@@ -372,4 +389,12 @@ applicable agreement for further details.
 	(pt 808 288)
 	(pt 776 288)
 	(bus)
+)
+(connector
+	(pt 496 392)
+	(pt 368 392)
+)
+(connector
+	(pt 368 392)
+	(pt 368 400)
 )

@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 176 48 344 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "a" (rect 5 0 11 12)(font "Arial" ))
+	(text "a" (rect 5 0 10 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 168 88 336 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "b" (rect 5 0 11 12)(font "Arial" ))
+	(text "b" (rect 5 0 10 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 176 120 344 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "cin" (rect 5 0 20 12)(font "Arial" ))
+	(text "cin" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -182,7 +182,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 408 208 472 256)
+	(rect 432 208 496 256)
 	(text "XOR" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -240,11 +240,6 @@ applicable agreement for further details.
 	(pt 232 328)
 )
 (connector
-	(text "g" (rect 345 224 350 236)(font "Arial" ))
-	(pt 344 240)
-	(pt 408 240)
-)
-(connector
 	(pt 408 320)
 	(pt 408 312)
 )
@@ -254,20 +249,38 @@ applicable agreement for further details.
 	(pt 408 320)
 )
 (connector
-	(pt 368 224)
-	(pt 368 232)
+	(pt 392 224)
+	(pt 392 232)
 )
 (connector
-	(text "cin" (rect 376 208 390 220)(font "Arial" ))
-	(pt 408 224)
-	(pt 368 224)
+	(pt 560 232)
+	(pt 560 224)
 )
 (connector
-	(pt 536 232)
-	(pt 536 224)
+	(text "s" (rect 504 216 509 228)(font "Arial" ))
+	(pt 496 232)
+	(pt 560 232)
 )
 (connector
-	(text "s" (rect 480 216 485 228)(font "Arial" ))
-	(pt 472 232)
-	(pt 536 232)
+	(text "cin" (rect 400 208 414 220)(font "Arial" ))
+	(pt 392 224)
+	(pt 432 224)
+)
+(connector
+	(pt 344 240)
+	(pt 352 240)
+)
+(connector
+	(pt 352 240)
+	(pt 352 248)
+)
+(connector
+	(text "g" (rect 353 232 358 244)(font "Arial" ))
+	(pt 352 248)
+	(pt 384 248)
+)
+(connector
+	(text "p" (rect 423 224 428 236)(font "Arial" ))
+	(pt 432 240)
+	(pt 408 240)
 )
