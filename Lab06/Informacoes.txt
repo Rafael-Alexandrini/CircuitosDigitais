@@ -1,0 +1,2 @@
+Área: 18 LUTs + 19 pins = 37
+Atraso: 12.373 ns
