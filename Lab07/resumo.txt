@@ -1,0 +1,2 @@
+area = 54 = 4(pinos) + 50(LUT)
+atraso = 7.886
