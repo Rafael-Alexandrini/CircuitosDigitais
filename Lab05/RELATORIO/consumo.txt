@@ -1,3 +1,0 @@
-area - 27 (16(pins)+11(logic))
-tempo - 10.603
-frequencia - 
